@@ -1,0 +1,1 @@
+a=input("Enter a choice: \n 1) Add \n 2) Subtract \n 3)Number : \n")
