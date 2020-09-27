@@ -7,9 +7,11 @@ import os
 import random
 from datetime import datetime as dt
 global curDir
+
 curDir = os.getcwd()
 token = dt.today().strftime("%d%m%Y%H%M%S")
 allSvgs = [each for each in os.listdir(curDir) if os.path.isfile(each) if ".svg" in each and each!=os.path.basename(__file__)]
+
 def getValue(allSvgs):
 	idValue = []
 	for svgFile in allSvgs:
